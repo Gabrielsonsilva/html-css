@@ -61,7 +61,7 @@ header > p {
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
-    margin-bottom: 30px
+    margin-bottom: 30px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.459);
 }
 
@@ -83,7 +83,6 @@ nav  > a{
 nav > a:hover{
     background-color: var(--cor3);
     color: var(--cor5);
-
 }
 
 main{
