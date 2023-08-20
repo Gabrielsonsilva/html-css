@@ -13,7 +13,6 @@
     padding: 0px;
     margin: 0px;
     font-size: 1em;
-
 }
 
 html, body{
@@ -32,9 +31,10 @@ header{
 
 header > h1{
     padding-top: 50px;
+    padding: 10px;
     font-variant: small-caps;
     font-family: var(--font1);
-    font-size: 10vw;
+    font-size: 4em;
    
 }
 
@@ -47,6 +47,10 @@ section{
     font-size: 3.5vw;
 }
 
+section > p{
+    padding-top: 2em;
+}
+
 section.normal{
     background-color: white;
     color: black;
@@ -55,12 +59,26 @@ section.normal{
 section.imagem{
     background-color: rgb(51, 47, 47);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow:inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.226);
+    background-color: rgba(0, 0, 0, 0.521);
     display: inline-block;
     padding:5px;
+}
+
+section#img01{
+background-image: url(../imagens/background001.jpg);
+background-position: right center
+
+
+}
+
+section#img02{
+background-image: url(../imagens/background002.jpg);
 }
 
 a{
